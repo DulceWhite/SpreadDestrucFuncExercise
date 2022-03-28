@@ -71,3 +71,25 @@ seeJPMovies = (y) => {
 
 seeJPMovies(allMovies);
 
+seeJPMovies([{one,two,three}, {four, five,six}]) {
+    console.log(one);
+    console.log(two);
+    console.log(three);
+    console.log(four);
+    console.log(five);
+    console.log(six);
+   }
+   
+   seeJPMovies(jurassicParkMovies);
+
+   //or
+
+   seeJPMovies ({one, two, three}, {four, five, six}) => {
+    console.log(one);
+    console.log(two);
+    console.log(three);
+    console.log(four);
+    console.log(five);
+    console.log(six);
+   }
+seeJPMovies(...jurassicParkMovies);
